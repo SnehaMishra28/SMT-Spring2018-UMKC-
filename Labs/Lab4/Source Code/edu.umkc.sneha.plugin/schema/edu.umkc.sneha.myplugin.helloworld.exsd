@@ -3,7 +3,7 @@
 <schema targetNamespace="edu.umkc.sneha.myplugin" xmlns="http://www.w3.org/2001/XMLSchema">
 <annotation>
       <appinfo>
-         <meta.schema plugin="edu.umkc.sneha.myplugin" id="edu.umkc.sneha.myplugin.helloworld" name="hello world"/>
+         <meta.schema plugin="edu.umkc.sneha.myplugin" id="edu.umkc.sneha.myplugin.helloworld" name="Hello World"/>
       </appinfo>
       <documentation>
          [Enter description of this extension point.]

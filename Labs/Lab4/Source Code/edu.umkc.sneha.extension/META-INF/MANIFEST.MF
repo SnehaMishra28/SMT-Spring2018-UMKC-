@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: My Extension
+Bundle-SymbolicName: edu.umkc.sneha.myextension;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.umkc.sneha.extension.Activator
+Bundle-Vendor: sneha mishra
+Require-Bundle: org.eclipse.core.runtime,
+ edu.umkc.sneha.myplugin;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
