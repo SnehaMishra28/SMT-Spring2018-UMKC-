@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="edu.umkc.sneha.tetrisgameplugin.start">
+      <friend
+            BoardPanel="edu.umkc.sneha.tetrisgameextension1.BoardPanel"
+            tetris="edu.umkc.sneha.tetrisgameextension1.Tetris">
+      </friend>
+   </extension>
+
+</plugin>

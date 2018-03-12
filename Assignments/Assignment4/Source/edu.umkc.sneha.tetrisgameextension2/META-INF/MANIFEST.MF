@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tetris Game Extension2
+Bundle-SymbolicName: edu.umkc.sneha.tetrisgameextension2;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.umkc.sneha.tetrisgameextension2.Activator
+Bundle-Vendor: sneha mishra
+Require-Bundle: org.eclipse.core.runtime,
+ edu.umkc.sneha.tetrisgameplugin;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: edu.umkc.sneha.tetrisgameextension2
