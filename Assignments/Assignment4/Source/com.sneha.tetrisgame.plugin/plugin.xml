@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="tetris.ext" name="TetrisExt" schema="schema/tetris.ext.exsd"/>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Sample Category"
+            id="com.sneha.tetrisgame.plugin.commands.category">
+      </category>
+      <command
+            name="Sample Command"
+            categoryId="com.sneha.tetrisgame.plugin.commands.category"
+            id="com.sneha.tetrisgame.plugin.commands.sampleCommand">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="com.sneha.tetrisgame.plugin.commands.sampleCommand"
+            class="com.sneha.tetrisgame.plugin.handlers.SampleHandler">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="com.sneha.tetrisgame.plugin.commands.sampleCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+6"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               label="Sample Menu"
+               mnemonic="M"
+               id="com.sneha.tetrisgame.plugin.menus.sampleMenu">
+            <command
+                  commandId="com.sneha.tetrisgame.plugin.commands.sampleCommand"
+                  mnemonic="S"
+                  id="com.sneha.tetrisgame.plugin.menus.sampleCommand">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="com.sneha.tetrisgame.plugin.toolbars.sampleToolbar">
+            <command
+                  commandId="com.sneha.tetrisgame.plugin.commands.sampleCommand"
+                  icon="icons/sample.gif"
+                  tooltip="Launch Tetris!!!"
+                  id="com.sneha.tetrisgame.plugin.toolbars.sampleCommand">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+
+</plugin>

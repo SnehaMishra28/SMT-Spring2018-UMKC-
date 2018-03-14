@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="tetris.ext">
+      <Friend
+            Class="com.sneha.tetrisgame.ext1.Tetris">
+      </Friend>
+      <Friend
+            BoardPanel="com.sneha.tetrisgame.ext1.BoardPanel">
+      </Friend>
+   </extension>
+
+</plugin>
