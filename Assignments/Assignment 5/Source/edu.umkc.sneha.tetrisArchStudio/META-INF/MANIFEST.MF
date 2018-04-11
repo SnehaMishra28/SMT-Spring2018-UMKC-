@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TetrisArchStudio
+Bundle-SymbolicName: edu.umkc.sneha.tetrisArchStudio
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.umkc.sneha.tetrisarchstudio.Activator
+Bundle-Vendor: sneha mishra
+Require-Bundle: org.eclipse.core.runtime,
+ edu.uci.isr.myx.fw;bundle-version="4.1.50"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: edu.umkc.sneha.tetrisArchStudio
+Bundle-ActivationPolicy: lazy
