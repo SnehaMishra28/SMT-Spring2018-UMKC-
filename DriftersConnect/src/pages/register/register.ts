@@ -58,7 +58,7 @@ export class RegisterPage {
           password
         );
         await loading.dismiss();
-        this.navCtrl.setRoot(HomePage);
+        this.navCtrlsetRoot(HomePage);
       } catch (error) {
         await loading.dismiss();
         const alert: Alert = this.alertCtrl.create({
